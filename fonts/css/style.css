@@ -1,0 +1,184 @@
+body{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+*{box-sizing: border-box}
+body {font-family: Verdanaa, sans-serif; margin: 0}
+.mySlides {display: none;}
+img{vertical-align: middle;}
+
+.logo{
+	float: right;
+	background-color: green;
+}
+
+
+.top{ 
+    overflow: hidden;
+    background-color: green;
+
+}
+
+.top a:hover{
+    /*background color: #F7B906;*/
+    color: white;
+    background-color: #F7B906;
+	color: white;
+	text-shadow: rgb(242,242,242);
+}
+
+.top a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*.top a.active{*/
+    /*background-color: #F7B906;*/
+    /*color: white;*/
+}
+
+.NGO{
+	width: 100%;
+
+}
+
+
+/*Slidesshow container */
+.container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.big{
+	color: #f2f2f2;
+	font-size: 12px;
+	position: absolute;
+	top: 0;
+}
+
+/*caption text*/
+.text{
+	color: #f2f2fc;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: 
+}
+
+/*next and previous buttons*/
+.prev, .next{
+	cursor: pointer;
+	position: absolute;
+	display: none;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px
+    color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/*on hover, add a black background color with a little bit see-through*/
+.prev:hover, .next:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+
+/*fading animation*/
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+/*tthe dots/bullets/indicators*/
+.dot{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+	background-color: #717171;
+}
+.imgs{
+	width: 100% !important;
+    height: 489px !important;
+}
+
+
+.main{
+	padding-left: 20px;
+	width: 100%;
+	margin: auto;
+	
+}
+
+.tin{
+	color: green;
+	float: left;
+	position: relative;
+	padding:5px;
+	margin: 30px;
+}
+
+.tin2{
+	position: relative;
+	float: left;
+	padding:5px;
+	margin: 30px;
+}
+
+.clear{
+	clear: both;
+}
+
+footer{
+	margin-top: 10%;
+}
+
+footer p{
+	margin-top: 20%;
+    font-family: arial;
+    color: rgb(102,106,119);
+    padding-top: 8px;
+    text-align: center;
+    position: center;
+}
+
+.para{
+	font-family: verdana;
+	font-size: 20px;
+}
+.mi{
+	font-family: verdana;
+	font-size: 20px;
+
+}
+.me{
+	font-size: 20px;
+	font-family: verdana;
+}
+
+.he{
+	font-family: 20px;
+	font-size: verdana;
+}
